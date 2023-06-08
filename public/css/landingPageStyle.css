@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+:root{
+    --brand-color: #661194;
+    --pallette-pink: #faa1b3;
+    --pallette-blue: #7393fa;
+    --pallette-skin: #fcf3ef;
+    --font-Karla: 'Karla', sans-serif;
+    --font-Zilla: 'Zilla Slab', serif;
+}
+
+/*
+********************
+Navbar Started
+********************
+*/
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    background-color: #AED7C8;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    transition: top 0.5s;
+    z-index: 1000;
+
+  }
+
+  
+  #website-logo {
+    position: absolute;
+    height: 88px;
+    left: 70px;
+    top: -1px;
+  }
+  
+  .navbar-links {
+    position: absolute;
+    width: 800px;
+    height: 28px;
+    left: 280px;
+    top: 30px;
+    font-family: Space Grotesk;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+
+  }
+  
+  .navbar-links li {
+    display: inline-block;
+  }
+  
+  .navbar-links li a {
+    text-align: center;
+    display: inline;
+    padding: 2px;
+    text-decoration: none;
+    font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
+    border: none;
+   color:#142510;
+    transition: background-color 0.3s, color 0.3s;
+    /* Remove the black outline on focus */
+    margin: 15px;
+  }
+  
+  .navbar-links li a:hover {
+ 
+  }
+  
+  
+
+.period-tracker{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height:28px;
+    width:156px;
+    height:28px;
+    top:28px;
+    left:586px;
+    color:#AED7C8;
+    text-decoration: none;
+    margin-right: 16px;
+    
+}
+
+.pamper-booth{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height:28px;
+    width:156px;
+    height:28px;
+    color:#000;
+    top:28px;
+    left:790px;
+    text-decoration: none;
+    margin-right: 16px;
+    border: 1px solid black;
+}
+
+.forum{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height:28px;
+    width:156px;
+    height:28px;
+    color:#000;
+    top:28px;
+    left:994px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.shop,.call{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    line-height:28px;
+    width:156px;
+    height:28px;
+    color:#000;
+    top:28px;
+    left:1123px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+a:hover{
+    color:var(--brand-color);
+}
+
+.start-here{
+    background-color:#000000;
+    border-radius:8px;
+    position:fixed;
+    width:140px;
+    height:55.125px;
+    left:100px;
+    top:555px; 
+    color:#fff;
+    font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size:20px;
+}
+.start-here a:hover{
+    color:white !important;
+}
+/*
+********************
+Navbar Finished
+********************
+*/
+
+/*
+********************
+Hero Section Start
+********************
+*/
+
+/* .hero-section{} */
+
+.corner-bg-blue-div{
+    width:70vw;
+    height:80vh;
+    left:0px;
+    background:rgb(253, 254, 255);
+}
+
+.hero-heading {
+    position: absolute;
+    width: 488px;
+    height: 195px;
+    left: 98px;
+    top: 180px;
+    font-family: Impact Black;
+    font-size: 55px;
+    color: #AED7C8;
+    
+  }
+  .hero-heading1{
+    position: absolute;
+    width: 488px;
+    height: 195px;
+    left: 98px;
+    top: 250px;
+    font-family: Impact Black;
+    font-size: 55px;
+    color: #000;
+
+  }
+  
+
+  .hero-text {
+    position: absolute;
+    width: 477px;
+    height: 34px;
+    left: 104px;
+    top: 393px;
+font-family: Century Gothic;
+    font-size: 22px;
+    color: #494c52;
+
+  }
+  
+
+.hero-bottom-arrow{
+    position:absolute;
+    top:547px;
+    left:104px;
+}
+
+.hero-image{
+    position:absolute;
+    height:450px;
+    left:800px;
+    top:190px;
+    border-radius: 10px;
+}
+
+/*
+********************
+Hero Section Finished 
+********************
+*/
+
+/*
+********************
+Our Services Started 
+********************
+*/
+
+.main-text1 {
+    font-family: 'Pacifico',
+        cursive;
+    color: #661194;
+}
+
+.our-services-heading{
+    position: absolute;
+    width: 418px;
+    height: 50px;
+    left: 98px;
+    top: 690px;
+color:Impact,#AED7C8;
+    font-size: 55px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+line-height: 65px;
+
+}
+
+.our-services-details{
+    position: absolute;
+width: 1158px;
+padding: 70px;
+height: 656px;
+left: 98px;
+top: 885px;
+
+}
+
+.period-tracker-icon{
+position: absolute;
+width: 240px;
+height: 250px;
+left: 98px;
+top: 800px;
+border-radius: 10px;
+
+}
+
+.pamper-booth-icon{
+    position: absolute;
+    width: 240px;
+    height: 250px;
+    left: 506px;
+    top: 800px;
+    border-radius: 10px;
+}
+
+
+
+.secure-forum-icon{
+    position: absolute;
+    width: 240px;
+    height: 250px;
+left: 506px;
+top: 1232px;
+border-radius: 10px;
+}
+
+.shop-icon{
+    position: absolute;
+    width: 240px;
+    height: 250px;
+left: 900px;
+top: 800px;
+border-radius: 10px;
+}
+
+.spotify-integration-icon{
+    position: absolute;
+    width: 240px;
+    height: 250px;
+left: 900px;
+top: 885px;
+border-radius: 10px;
+}
+.notifications-icon{
+    position: absolute;
+    width: 240px;
+    height: 250px;
+left: 98px;
+top: 1232px;
+border-radius: 10px; 
+}
+
+.small-heading{
+    font-family: Impact Black;
+    font-size: 28px;
+    line-height: 42px;
+    color: #AED7C8;
+}
+
+.period-tracker-heading{
+    position: absolute;
+width: 245px;
+height: 42px;
+left: 100px;
+top: 760px;
+}
+
+.notifications-heading{
+    position: absolute;
+width: 226px;
+height: 42px;
+left: 100px;
+top: 1190px;
+}
+
+.pamper-booth-heading{
+    position: absolute;
+width: 243px;
+height: 42px;
+left: 506px;
+top: 760px;
+}
+
+.secure-forum-heading{
+    position: absolute;
+width: 238px;
+height: 42px;
+left: 506px;
+top: 1190px;
+}
+
+.shop-heading{
+    position: absolute;
+width: 88px;
+height: 42px;
+left: 980px;
+top: 760px;
+}
+
+.spotify-integration-heading{
+    position: absolute;
+width: 325px;
+height: 42px;
+left: 900px;
+top: 996px;
+}
+
+.small-text{
+    font-family: 'Nunito',
+    sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    color: #494c52;
+}
+
+.period-tracker-text{
+
+position: absolute;
+width: 356px;
+height: 145px;
+left: 100px;
+top: 1049px;
+
+}
+
+.notifications-text{
+    position: absolute;
+    width: 356px;
+    height: 87px;
+    left: 100px;
+    top: 1500px;
+
+}
+
+.pamper-booth-text{
+    position: absolute;
+    width: 356px;
+    height: 145px;
+    left: 506px;
+    top: 1049px;
+
+    }
+
+.secure-forum-text{
+    position: absolute;
+    width: 356px;
+    height: 145px;
+    left: 509px;
+    top: 1500px;
+}
+
+.shop-text{
+    position: absolute;
+width: 356px;
+height: 145px;
+left: 892px;
+top: 1049px;
+}
+
+.spotify-integration-text{
+    position: absolute;
+    width: 356px;
+    height: 87px;
+    left: 900px;
+    top: 1049px;}
+
+.our-services-arrow{
+    position: absolute;
+width: 54px;
+height: 54px;
+left: 1194px;
+top: 1595px;
+}
+
+/*
+**********************
+Our Services Finished
+**********************
+*/
+
+/*
+**********************
+Our Team Started
+**********************
+*/
+
+
+.about-Glovia{
+    position: absolute;
+width: 497px;
+height: 648px;
+left: 790px;
+top: 1742px;
+
+background: #7393FA;
+}
+
+.about-Glovia-heading{
+    position: absolute;
+width: 447px;
+height: 42px;
+left:15px;
+top:30px;
+font-family: 'Pacifico', cursive;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.about-Glovia-text{
+    position: absolute;
+width: 424px;
+height: 494px;
+left:15px;
+top:100px;
+font-family: var(--font-Zilla);
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+
+}
+
+.our-team-heading{
+    position: absolute;
+width: 348px;
+height: 65px;
+left: 98px;
+top: 1649px;
+
+font-family: 'Pacifico', cursive; 
+font-size: 48px;
+line-height: 65px;
+
+color: #661194;
+
+}
+
+.our-team-section{
+    margin-bottom:100px;
+}
+
+a{
+    color:white;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #AED7C8;
+    top: 1650px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 20px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  .footer-info {
+    text-align: right;
+  }
+  
+  .footer-info p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #333;
+    color: #fff;
+  }
