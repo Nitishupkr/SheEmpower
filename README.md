@@ -1,10 +1,9 @@
-# Glovia
-### Girl/Glow+Ovulation/Ovary+Vaginal Health_
+# SheEmpower
 
 ## 1. Inspiration
 Since the internet has bloomed in India enormously, the use of technology and smartphones are widely spread even to remote rural locations. 
 But harrowingly, even in this new progressive era, the talk of menstrual hygiene and periods are still a taboo and hush hush. 
-With the help of Glovia, our team provides the platform and tools which will cater to the needs of every woman in this important phase of their life and aims to make menstrual hygiene accessible to each and every woman in every nook of India. 
+With the help of SheEmpower, our team provides the platform and tools which will cater to the needs of every woman in this important phase of their life and aims to make menstrual hygiene accessible to each and every woman in every nook of India. 
 
 ## 2. What it does(Problem Statement)
  A website that helps women track their menstrual cycle, Pamper booth that offers some unique feature to cater mood swings, Gynecologist help for medical assistance, Menstrual Blog for creating awareness about menstrual health and hygiene, a Women intimate hygiene shop providing quality products and a discussion forum with video calling feature. 
@@ -18,7 +17,7 @@ Notifying your loved ones: An email with instructions on how they can take care 
 - Menstrual Blog: Awareness comes with knowledge. To create and increase awareness among our users, we have built another API, a Menstrual Blog, which grabs articles regarding menstrual hygiene and many others.
 - Shop: Our team has also come up with a shopping platform for excellent quality sanitary napkins, pantyliners, menstrual cups, tampons, intimate washing solutions etc at the best price.
 
-## 4. What’s next for Glovia
+## 4. What’s next for SheEmpower
 ##### After the hackathon, web application will be improved by adding the following features:
 - Doctor and Gynecologist appointment feature for easy consultation 
 - Personalized and secured Discussion Forum
@@ -60,19 +59,4 @@ Users get to experience a hassle-free login system by just entering their email 
 
 
 
-## 8. INSTALLATION
 
-Open your favorite Terminal and run these commands:
-Clone the repository: 
-```sh
-git clone https://github.com/SWASTIKA28/glovia
-```
-
-Install node modules: 
-```sh
-yarn install
-```
-Start the server: 
-```sh
-yarn start
-```
